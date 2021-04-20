@@ -1,7 +1,9 @@
 package Hitss.Treinamento.Repositories;
 
 public class PessoaRepository {
-	public void FazerAniversario(int idade) {
-		int aniversario = idade + 1;
+	public int FazerAniversario(int idade) {
+		idade += 1;
+		
+		return idade;
 	}
 }
